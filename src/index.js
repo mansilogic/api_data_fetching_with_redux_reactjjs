@@ -4,10 +4,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './redux/store';
-import Container from './components/PostList';
+import App from './components/PostList';
 ReactDOM.render(
   <Provider store={store}>
-    <Container />
+    <App />
   </Provider>,
   document.getElementById('root')
 );
